@@ -1,0 +1,20 @@
+{
+    "name": "quinn/login",
+    "description": "Login tes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natchaya Yimtanom",
+            "email": "yi.natchaya_st@tni.ac.th"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Quinn\\Login\\": "src/"
+        }
+    }
+}
